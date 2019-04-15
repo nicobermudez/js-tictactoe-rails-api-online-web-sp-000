@@ -32,6 +32,10 @@ function updateState(td) {
   $(td).text(symbol)
 }
 
+function setMessage() {
+  
+}
+
 function doTurn() {
 
 }
