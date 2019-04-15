@@ -24,7 +24,7 @@ function attachListeners() {
 }
 
 function player() {
-  return turn % 2 ? 'X' : 'O'
+  return turn % 2 ? 'O' : 'X'
 }
 
 function updateState(td) {
