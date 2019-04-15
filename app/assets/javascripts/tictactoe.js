@@ -2,7 +2,7 @@
 
 
 const buttons = function() {
-  $("#save").onClick(function() {
+  $("#save").on('click', function() {
     
   })
 }
