@@ -20,5 +20,5 @@ function buttonListeners() {
 }
 
 function player() {
-  
+
 }
