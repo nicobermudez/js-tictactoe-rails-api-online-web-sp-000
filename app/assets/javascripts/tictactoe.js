@@ -33,7 +33,7 @@ function updateState(td) {
 }
 
 function setMessage(string) {
-
+  $('#message').text(string)
 }
 
 function doTurn() {
