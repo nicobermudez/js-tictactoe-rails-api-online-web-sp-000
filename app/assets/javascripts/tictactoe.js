@@ -3,6 +3,6 @@
 
 const buttons = function() {
   $("#save").on('click', function() {
-
+    saveGame()
   })
 }
