@@ -32,7 +32,7 @@ function updateState(td) {
   $(td).text(symbol)
 }
 
-function setMessage() {
+function setMessage(string) {
   
 }
 
