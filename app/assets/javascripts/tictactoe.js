@@ -28,8 +28,7 @@ function player() {
 }
 
 function updateState(td) {
-
-  player()
+  let symbol = player()
 }
 
 function doTurn() {
