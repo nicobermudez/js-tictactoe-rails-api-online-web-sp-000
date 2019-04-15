@@ -33,7 +33,7 @@ function updateState(td) {
 }
 
 function setMessage(string) {
-  
+
 }
 
 function doTurn() {
