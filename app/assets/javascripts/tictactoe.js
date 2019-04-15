@@ -1,6 +1,6 @@
 // Code your JavaScript / jQuery solution here
 
 
-const buttons = function() {
+function buttonListeners() {
   $("#save").on('click', () => saveGame())
 }
