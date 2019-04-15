@@ -3,7 +3,7 @@
 
 function buttonListeners() {
   $('td').on('click', function() {
-    if(!S.text(this) && !checkWinner()) {
+    if(!$.text(this) && !checkWinner()) {
       doTurn(this)
     }
   })
@@ -11,4 +11,8 @@ function buttonListeners() {
   $("#save").on('click', () => saveGame())
   $('#previous').on('click', () => showPreviousGames())
   $('#clear').on("click", () => resetBoard())
+}
+
+function player() {
+  
 }
