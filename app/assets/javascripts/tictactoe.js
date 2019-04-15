@@ -23,7 +23,7 @@ function attachListeners() {
   $('#clear').on("click", () => resetBoard())
 }
 
-const player = () -> turn % 2 ? 'O' : 'X'
+const player = () => turn % 2 ? 'O' : 'X'
 
 
 function updateState(td) {
