@@ -29,6 +29,7 @@ function player() {
 
 function updateState(td) {
   let symbol = player()
+  $(td).text(symbol)
 }
 
 function doTurn() {
