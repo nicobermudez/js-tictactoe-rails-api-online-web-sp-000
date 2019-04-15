@@ -7,11 +7,11 @@ let turn = 0
 let currentGame = 0
 
 $(document).ready(function() {
-  buttonListeners()
+  attachListeners()
 })
 
 
-function buttonListeners() {
+function attachListeners() {
   $('td').on('click', function() {
     if(!$.text(this) && !checkWinner()) {
       doTurn(this)
