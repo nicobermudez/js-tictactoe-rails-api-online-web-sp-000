@@ -28,10 +28,10 @@ function player() {
 }
 
 function updateState(td) {
-  
+
   player()
 }
 
 function doTurn() {
-  
+
 }
