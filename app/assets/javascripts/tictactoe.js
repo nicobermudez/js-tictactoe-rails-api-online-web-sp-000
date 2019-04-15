@@ -24,5 +24,5 @@ function buttonListeners() {
 }
 
 function player() {
-
+  turn % 2 ? 'O' : 'X'
 }
