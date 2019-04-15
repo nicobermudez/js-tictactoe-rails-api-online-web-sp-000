@@ -6,6 +6,10 @@ const WINNING_COMBOS = [[0,1,2], [3,4,5], [6,7,8], [0,3,6],
 let turn = 0
 let currentGame = 0
 
+$(document).ready(function() {
+  buttonListeners()
+})
+
 
 function buttonListeners() {
   $('td').on('click', function() {
